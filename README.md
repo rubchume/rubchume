@@ -1,4 +1,12 @@
-### Hi there 👋
+### Hi there my friend 👋
+
+I am Rubén.
+
+I am a backend Java developer (Hybris framework, Spring) with a background in telecommunications engineering and a strong interest and formal education in data science, data engineering and visualization (with Python programming languange mostly).
+
+Here you can find some of the projects I like to work on in my spare time. Feel free to get inspired by them, fork them and contact me if you have any doubts or want to know a little more about the context (most of them are not thoroughly docummented since I do them for mostly for myself).
+
+Have fun.
 
 <!--
 **rubchume/rubchume** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
