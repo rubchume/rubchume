@@ -37,6 +37,8 @@ For example, I discovered that a cousin of mine (my family are the violet dots) 
 
 What do you think you will discover?
 
+*You can read more in this [article](https://rubchume.medium.com/organize-your-wedding-with-social-network-analysis-in-python-aeab9d8814b3)*
+
 ### [Picture Anonymizer](https://github.com/rubchume/PictureAnonymizer)
 
 ![Picture Anonymizer](images/picture%20anonymizer.jpeg)
@@ -56,7 +58,7 @@ Do you like Markov processes, probability estimation and eigenvector matrix deco
 
 Well, you can skip to the next project if you don't... I'm joking, wait a little until I explain what this app can do.
 
-Have you ever realized that in a Whatsapp group chat, there is always some, let's call her Alice, that is almost always the first to talk after, let's call him John, says something?
+Have you ever realized that in a Whatsapp group chat, there is always someone (let's call her Alice) who almost always is the first one to talk after someone else (let's call him John) says something?
 
 That can mean many things and it's not my business to gossip about Alice and John.
 
@@ -80,8 +82,7 @@ This is just a made up example. The thing is, in real chats we can estimate this
 With this matrix, we can then represent visually how *hot* or *cold* is a relationship, or if it is very asymmetric.
 
 It is important to highlight that the computations take in account how often a person talks in general.
-
-If there Charles just spends his days talking in the group, of course most of the messages of Alice or John will be followed by a message of Charles,
+If   Charles just spends his days talking in the group, of course most of the messages of Alice or John will be followed by a message of Charles,
 but that does not mean that Charles has a preference for Alice or John.
 The computations take in account that bias and compensate for that.
 
@@ -89,7 +90,7 @@ This is a real example of one of the Whatsapp groups in a group of friends I hav
 ![Whatsapp Chat](images/whatsapchat.png)
 
 We can see that there are two persons (and I know for sure there is something between them) that have a very very warm relationship.
-The blue one is pretty warm with every one. The pink one has kind of a cold relationship to the blue one.
+The blue one is pretty warm with every one. The pink one has kind of a cold relationship to the purple one.
 But honestly, it seems the blue one is cold with everyone except with the orange one.
 And there are two other persons who never participate, but that's another story.
 
@@ -121,4 +122,20 @@ but in any case this can be very useful if you are looking for a fully functiona
 
 The web scraping part might need to be updated as the Medium interface can change over time.
 
-Have fun.
+### [Notion API Manager](https://github.com/rubchume/NotionApiManager)
+
+If you are an organization freak like me, you know what [Notion](https://www.notion.so/) is. This app has changed forever the way millions of users take notes.
+
+Even if there are strong competitors like Obsidian or LogSeq that out-compete Notion in the task of creating a *second brain*,
+Notion still has the edge as the most balanced note-taking app. It might not be the best in anything, but it is excellent in everything,
+and that balance is what makes it my preferred option when it comes taking notes, manage projects and organizing knowledge.
+
+One of the great things of Notion is that its API is simple and easy to use. However, for most common operations it could be even simpler.
+
+This project is a small Python wrapper around the existing and excellent Notion API so creating new pages and consuming existing information becomes a matter of writing a few lines.
+
+It is still very simple, so feel free to adapt it to your own needs.
+
+This package published in **PyPI** and documented with **Sphinx**, and the whole process testing and deploying the new versions of the package is done by running a **Gitlab CI Pipeline**.
+
+## Enjoy and contact me if you wish. Have fun.
