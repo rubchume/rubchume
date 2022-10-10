@@ -1,4 +1,4 @@
-### Hi there my friend 👋
+# Hi there my friend 👋
 
 I am Rubén.
 
@@ -8,17 +8,117 @@ Here you can find some of the projects I like to work on in my spare time. Feel 
 
 Have fun.
 
-<!--
-**rubchume/rubchume** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Projects free tour
 
-Here are some ideas to get you started:
+Let me give you a brief summary of what you can find here, for free 😉
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [Facebook Friend Network Analyzer](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
+
+![FriendFacebookNetwork](images/friendsnetwork.png)
+
+This project is about **web scraping** your personal (my personal, but you should work on yours) Facebook profile using Selenium from Python.
+
+With this you can download the information about which of your friends are friends between them, and which of them don't know each other.
+
+Then you can find the different communities among your friends with **social network analysis** algorithms implemented in the Python library NetworkX.
+
+The interactive visualizations are created using **Plotly**.
+
+Finally, all of this is wrapped up in a simple (and somewhat ugly, sorry) Electron GUI that uses **Django** as a backend.
+
+In summary, a mix of libraries and technologies to create a simple application that, honestly, I think it is really cool.
+
+Among other things, I realized that almost all of my friends are connected.
+
+When there is a dense network of friends (dots of the same color) that is connected by just one connection to other community,
+in almost all cases the connection is a surprise you didn't know. 
+
+For example, I discovered that a cousin of mine (my family are the violet dots) knew one of my childhood friends (green dots), and that a person I knew while studying in another country (pink) knows one of my salsa lessons classmates (yellow).
+
+What do you think you will discover?
+
+### [Picture Anonymizer](https://github.com/rubchume/PictureAnonymizer)
+
+![Picture Anonymizer](images/picture%20anonymizer.jpeg)
+
+This is a Django application where you can upload pictures of people and then it 
+uses Google Cloud Platform API for finding where the faces are.
+
+The application will blur those faces so those pictures become anonymous.
+
+The most interesting part of the code you can get from this is how to communicate with Google Cloud Platform from Python.
+
+It can serve as a starting point for other more complex applications.
+
+### [Whatsapp Analyzer](https://github.com/rubchume/WhatsappAnalyzer)
+
+Do you like Markov processes, probability estimation and eigenvector matrix decomposition?
+
+Well, you can skip to the next project if you don't... I'm joking, wait a little until I explain what this app can do.
+
+Have you ever realized that in a Whatsapp group chat, there is always some, let's call her Alice, that is almost always the first to talk after, let's call him John, says something?
+
+That can mean many things and it's not my business to gossip about Alice and John.
+
+However this presents and interesting probability modeling problem. What I thought is that we can model a Whatsapp chat as a Markov process.
+
+What is a Markov process? Well it is just a mathematical abstraction to model a process where there are some states a variable can have
+(like the last message in a chat being written by Alice, John, or Charles, who by the way is kind of jealous),
+and in each iteration, there is a specific probability that the next message belongs to each one of them.
+Hence the probabilities of going to one state to another can be represented in a matrix:
+
+|         | Alice | John | Charles |
+|---------|-------|------|---------|
+| Alice   | X     | 0.5  | 0.5     |
+| John    | 0.9   | X    | 0.1     |
+| Charles | 0.5   | 0.5  | X       |
+
+
+This is just a made up example. The thing is, in real chats we can estimate this matrix using the Maximum Likelihood estimator
+(which fortunately can be calculated using some simple linear algebra with eigenvalue decomposition).
+
+With this matrix, we can then represent visually how *hot* or *cold* is a relationship, or if it is very asymmetric.
+
+It is important to highlight that the computations take in account how often a person talks in general.
+
+If there Charles just spends his days talking in the group, of course most of the messages of Alice or John will be followed by a message of Charles,
+but that does not mean that Charles has a preference for Alice or John.
+The computations take in account that bias and compensate for that.
+
+This is a real example of one of the Whatsapp groups in a group of friends I have:
+![Whatsapp Chat](images/whatsapchat.png)
+
+We can see that there are two persons (and I know for sure there is something between them) that have a very very warm relationship.
+The blue one is pretty warm with every one. The pink one has kind of a cold relationship to the blue one.
+But honestly, it seems the blue one is cold with everyone except with the orange one.
+And there are two other persons who never participate, but that's another story.
+
+In this project you can see how to use the **data analysis** Python libraries **Pandas**, **Numpy** and **Plotly**.
+You can also see how to set up a simple **Django** app.
+
+Do you want to have objective arguments to prove that Alice has some sort of crush on John with the help of Markov?
+
+Explore the code in this repository. But don't blame me for what could happen afterwards.
+
+### [Medium web scraper](https://github.com/rubchume/MediumScraper)
+
+![Medium Scraper](images/MediumScraper.svg)
+
+This is actually a real project thanks to which I made a good amount of money.
+It is not the finished version I used (for confidentiality purposes) but one of the first versions. In any case, the principles are the same.
+
+It turns out a machine learning company was training some Natural Language Processing models on a great variety of texts.
+
+They needed to find blog articles about certain topics, and for that they hired freelancers. I was one of those freelancers.
+
+My job was to provide them with a way of downloading tens of thousands of blog articles in text format about some topics in the least amount of time possible (less than 10 minutes).
+
+I built a solution using web scraping in Python with **Selenium**, **BeautifulSoup**, **multithreading** and **queues** that would download those articles from the Medium.com archive.
+
+This first version is not the one I ended up using and it is not the one I would recommend using in a professional setting.
+I would actually include a mix of concurrency and multithreading instead of 100% multithreading,
+but in any case this can be very useful if you are looking for a fully functional project that uses these technologies.
+
+The web scraping part might need to be updated as the Medium interface can change over time.
+
+Have fun.
