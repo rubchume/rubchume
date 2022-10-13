@@ -12,7 +12,7 @@ Have fun.
 
 Let me give you a brief summary of what you can find here, for free 😉
 
-### [Facebook Friend Network Analyzer](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
+### [Facebook Friend Network Analyser](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
 
 ![FriendFacebookNetwork](images/friendsnetwork.png)
 
@@ -39,9 +39,9 @@ What do you think you will discover?
 
 *You can read more in this [article](https://rubchume.medium.com/organize-your-wedding-with-social-network-analysis-in-python-aeab9d8814b3)*
 
-### [Picture Anonymizer](https://github.com/rubchume/PictureAnonymizer)
+### [Picture Anonymiser](https://github.com/rubchume/PictureAnonymizer)
 
-![Picture Anonymizer](images/picture%20anonymizer.jpeg)
+![Picture Anonymiser](images/picture%20anonymizer.jpeg)
 
 This is a Django application where you can upload pictures of people and then it 
 uses Google Cloud Platform API for finding where the faces are.
@@ -52,7 +52,7 @@ The most interesting part of the code you can get from this is how to communicat
 
 It can serve as a starting point for other more complex applications.
 
-### [Whatsapp Analyzer](https://github.com/rubchume/WhatsappAnalyzer)
+### [Whatsapp Analyser](https://github.com/rubchume/WhatsappAnalyzer)
 
 Do you like Markov processes, probability estimation and eigenvector matrix decomposition?
 
@@ -62,7 +62,7 @@ Have you ever realized that in a Whatsapp group chat, there is always someone (l
 
 That can mean many things and it's not my business to gossip about Alice and John.
 
-However this presents and interesting probability modeling problem. What I thought is that we can model a Whatsapp chat as a Markov process.
+However this presents and interesting probability modelling problem. What I thought is that we can model a Whatsapp chat as a Markov process.
 
 What is a Markov process? Well it is just a mathematical abstraction to model a process where there are some states a variable can have
 (like the last message in a chat being written by Alice, John, or Charles, who by the way is kind of jealous),
