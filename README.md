@@ -12,6 +12,15 @@ Have fun.
 
 Let me give you a brief summary of what you can find here, for free 😉
 
+### [Flip page CNN detector (Microsoft Azure MLOps)](https://github.com/rubchume/FlipPageDetectorCNNAzure)
+- Designed and trained a CNN neural network for classifying book pages being flipped or not with more than 98% F1 test score
+- Trained it with GPU compute instance in Microsoft Azure, and PyTorch Lightning framework
+- Deployed the model to Microsoft Azure ML batch and real time endpoints with the help of MLFlow framework
+<div style="display: flex; justify-content: space-between;">
+<img src="images/flippageexample.jpg" width="300px">
+<img src="images/FlipPageDetectorConfusionMatrix.png">
+</div>
+
 ### [Facebook Friend Network Analyser](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
 
 ![FriendFacebookNetwork](images/friendsnetwork.png)
