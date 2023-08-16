@@ -22,19 +22,17 @@ Let me give you a brief summary of what you can find here, for free 😉
 </div>
 
 ### [Bank Marketing Campaign XGBoost Modeling](https://github.com/rubchume/BankMarketingCampaignXGBoostModeling)
-This is an analysis of a marketing campaign from a bank institution. The goal is to predict if a client will subscribe to a term deposit.
-
-The dataset is composed of demographic, financial and marketing data for 40000 clients.
-XBoost is used to model this binary classification problem.
-
-The main points are:
-- Data analysis
-- Model training.
-- Model explainability analysis with SHAP values.
+- Analyzed data (demographic, financial and data related to marketing) from a marketing campaign where a European bank institution was selling a term deposit, performing Exploratory Data Analysis, binary classification modeling and evaluation of metrics.
+- Used XGBoost to predict the success of the campaign given the customer’s available data.
+- Performed feature engineering, fine tuning of model hyperparameters and adjusted the decision threshold, achieving a recall of more than 70% and a precision of 50% for a very imbalanced dataset (only 7% of customers bought the term deposit).
 
 <div style="display: flex; justify-content: space-between;">
 <img src="images/BankingMarketingROC.png" width="800px">
 </div>
+
+### [Job candidates ranking (Word2Vec)](https://github.com/rubchume/StockDataAnalysis)
+- Created an algorithm to rank potential job candidates based on two criteria: search term and similarity to a candidate (based on job title, location and number of connections) that is manually highlighted as an ideal candidate.
+- Used word embedding algorithms (Word2Vec and FastText) for computing the job title similarity and a geographic API for handling closeness of location.
 
 ### [Facebook Friend Network Analyser](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
 
