@@ -61,6 +61,10 @@ What do you think you will discover?
 
 *You can read more in this [article](https://rubchume.medium.com/organize-your-wedding-with-social-network-analysis-in-python-aeab9d8814b3)*
 
+### [Stock Data Anslysis and Trading Strategy](https://github.com/rubchume/StockDataAnalysis)
+- Performed time series forecasting of stock data with SARIMAX and Simple Exponential Smothing models
+- Created a trading strategy that makes use of previous forecasts using the Backtrader framework and Bollinger Bands as technical indicator
+
 ### [Picture Anonymiser](https://github.com/rubchume/PictureAnonymizer)
 
 ![Picture Anonymiser](images/picture%20anonymizer.jpeg)
