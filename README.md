@@ -21,6 +21,21 @@ Let me give you a brief summary of what you can find here, for free 😉
 <img src="images/FlipPageDetectorConfusionMatrix.png">
 </div>
 
+### [Bank Marketing Campaign XGBoost Modeling](https://github.com/rubchume/BankMarketingCampaignXGBoostModeling)
+This is an analysis of a marketing campaign from a bank institution. The goal is to predict if a client will subscribe to a term deposit.
+
+The dataset is composed of demographic, financial and marketing data for 40000 clients.
+XBoost is used to model this binary classification problem.
+
+The main points are:
+- Data analysis
+- Model training.
+- Model explainability analysis with SHAP values.
+
+<div style="display: flex; justify-content: space-between;">
+<img src="images/BankingMarketingROC.png" width="800px">
+</div>
+
 ### [Facebook Friend Network Analyser](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
 
 ![FriendFacebookNetwork](images/friendsnetwork.png)
