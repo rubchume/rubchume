@@ -27,7 +27,8 @@ Let me give you a brief summary of what you can find here, for free 😉
 - Performed feature engineering, fine tuning of model hyperparameters and adjusted the decision threshold, achieving a recall of more than 70% and a precision of 50% for a very imbalanced dataset (only 7% of customers bought the term deposit).
 
 <div style="display: flex; justify-content: space-between;">
-<img src="images/BankingMarketingROC.png" width="800px">
+<img src="images/BankingMarketingROC.png" width="400px">
+<img src="images/SHAPanalysis.png" width="400px">
 </div>
 
 ### [Job candidates ranking (Word2Vec)](https://github.com/rubchume/JobCandidatesRankingWord2Vec)
