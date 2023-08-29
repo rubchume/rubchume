@@ -16,7 +16,14 @@ Have fun.
 
 Let me give you a brief summary of what you can find here, for free 😉
 
-### [Flip page CNN detector (Microsoft Azure MLOps)](https://github.com/rubchume/FlipPageDetectorCNNAzure)
+I have divided this into thes types of projects:
+- Data Science/Machine Learning
+- Data-oriented Software Engineering
+- Software Engineering
+
+### Data science projects
+
+#### [Flip page CNN detector (Microsoft Azure MLOps)](https://github.com/rubchume/FlipPageDetectorCNNAzure)
 - Designed and trained a CNN neural network for classifying book pages being flipped or not with more than 98% F1 test score
 - Trained it with GPU compute instance in Microsoft Azure, and PyTorch Lightning framework
 - Deployed the model to Microsoft Azure ML batch and real time endpoints with the help of MLFlow framework
@@ -25,7 +32,7 @@ Let me give you a brief summary of what you can find here, for free 😉
 <img src="images/FlipPageDetectorConfusionMatrix.png">
 </div>
 
-### [Bank Marketing Campaign XGBoost Modeling](https://github.com/rubchume/BankMarketingCampaignXGBoostModeling)
+#### [Bank Marketing Campaign XGBoost Modeling](https://github.com/rubchume/BankMarketingCampaignXGBoostModeling)
 - Analyzed data (demographic, financial and data related to marketing) from a marketing campaign where a European bank institution was selling a term deposit, performing Exploratory Data Analysis, binary classification modeling and evaluation of metrics.
 - Used XGBoost to predict the success of the campaign given the customer’s available data.
 - Performed feature engineering, fine tuning of model hyperparameters and adjusted the decision threshold, achieving a recall of more than 70% and a precision of 50% for a very imbalanced dataset (only 7% of customers bought the term deposit).
@@ -35,11 +42,17 @@ Let me give you a brief summary of what you can find here, for free 😉
 <img src="images/SHAPanalysis.png" width="400px">
 </div>
 
-### [Job candidates ranking (Word2Vec)](https://github.com/rubchume/JobCandidatesRankingWord2Vec)
+#### [Job candidates ranking (Word2Vec)](https://github.com/rubchume/JobCandidatesRankingWord2Vec)
 - Created an algorithm to rank potential job candidates based on two criteria: search term and similarity to a candidate (based on job title, location and number of connections) that is manually highlighted as an ideal candidate.
 - Used word embedding algorithms (Word2Vec and FastText) for computing the job title similarity and a geographic API for handling closeness of location.
 
-### [Facebook Friend Network Analyser](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
+#### [Stock Data Analysis and Trading Strategy](https://github.com/rubchume/StockDataAnalysis)
+- Performed time series forecasting of stock data with SARIMAX and Simple Exponential Smothing models
+- Created a trading strategy that makes use of previous forecasts using the Backtrader framework and Bollinger Bands as technical indicator
+
+### Data-oriented Software Engineering projects
+
+#### [Facebook Friend Network Analyser](https://github.com/rubchume/FacebookFriendNetworkAnalyzer)
 
 ![FriendFacebookNetwork](images/friendsnetwork.png)
 
@@ -66,11 +79,7 @@ What do you think you will discover?
 
 *You can read more in this [article](https://rubchume.medium.com/organize-your-wedding-with-social-network-analysis-in-python-aeab9d8814b3)*
 
-### [Stock Data Anslysis and Trading Strategy](https://github.com/rubchume/StockDataAnalysis)
-- Performed time series forecasting of stock data with SARIMAX and Simple Exponential Smothing models
-- Created a trading strategy that makes use of previous forecasts using the Backtrader framework and Bollinger Bands as technical indicator
-
-### [Picture Anonymiser](https://github.com/rubchume/PictureAnonymizer)
+#### [Picture Anonymiser](https://github.com/rubchume/PictureAnonymizer)
 
 ![Picture Anonymiser](images/picture%20anonymizer.jpeg)
 
@@ -83,7 +92,28 @@ The most interesting part of the code you can get from this is how to communicat
 
 It can serve as a starting point for other more complex applications.
 
-### [Whatsapp Analyser](https://github.com/rubchume/WhatsappAnalyzer)
+#### [Medium web scraper](https://github.com/rubchume/MediumScraper)
+
+![Medium Scraper](images/MediumScraper.svg)
+
+This is actually a real project thanks to which I made a good amount of money.
+It is not the finished version I used (for confidentiality purposes) but one of the first versions. In any case, the principles are the same.
+
+It turns out a machine learning company was training some Natural Language Processing models on a great variety of texts.
+
+They needed to find blog articles about certain topics, and for that they hired freelancers. I was one of those freelancers.
+
+My job was to provide them with a way of downloading tens of thousands of blog articles in text format about some topics in the least amount of time possible (less than 10 minutes).
+
+I built a solution using web scraping in Python with **Selenium**, **BeautifulSoup**, **multithreading** and **queues** that would download those articles from the Medium.com archive.
+
+This first version is not the one I ended up using and it is not the one I would recommend using in a professional setting.
+I would actually include a mix of concurrency and multithreading instead of 100% multithreading,
+but in any case this can be very useful if you are looking for a fully functional project that uses these technologies.
+
+The web scraping part might need to be updated as the Medium interface can change over time.
+
+#### [Whatsapp Analyser](https://github.com/rubchume/WhatsappAnalyzer)
 
 Do you like Markov processes, probability estimation and eigenvector matrix decomposition?
 
@@ -132,28 +162,9 @@ Do you want to have objective arguments to prove that Alice has some sort of cru
 
 Explore the code in this repository. But don't blame me for what could happen afterwards.
 
-### [Medium web scraper](https://github.com/rubchume/MediumScraper)
+### Software Engineering projects
 
-![Medium Scraper](images/MediumScraper.svg)
-
-This is actually a real project thanks to which I made a good amount of money.
-It is not the finished version I used (for confidentiality purposes) but one of the first versions. In any case, the principles are the same.
-
-It turns out a machine learning company was training some Natural Language Processing models on a great variety of texts.
-
-They needed to find blog articles about certain topics, and for that they hired freelancers. I was one of those freelancers.
-
-My job was to provide them with a way of downloading tens of thousands of blog articles in text format about some topics in the least amount of time possible (less than 10 minutes).
-
-I built a solution using web scraping in Python with **Selenium**, **BeautifulSoup**, **multithreading** and **queues** that would download those articles from the Medium.com archive.
-
-This first version is not the one I ended up using and it is not the one I would recommend using in a professional setting.
-I would actually include a mix of concurrency and multithreading instead of 100% multithreading,
-but in any case this can be very useful if you are looking for a fully functional project that uses these technologies.
-
-The web scraping part might need to be updated as the Medium interface can change over time.
-
-### [Notion API Manager](https://github.com/rubchume/NotionApiManager)
+#### [Notion API Manager](https://github.com/rubchume/NotionApiManager)
 
 If you are an organization freak like me, you know what [Notion](https://www.notion.so/) is. This app has changed forever the way millions of users take notes.
 
@@ -169,7 +180,7 @@ It is still very simple, so feel free to adapt it to your own needs.
 
 This package published in **PyPI** and documented with **Sphinx**, and the whole process testing and deploying the new versions of the package is done by running a **Gitlab CI Pipeline**.
 
-### [Terraform AWS Examples](https://github.com/rubchume/TerraformAWSexamples)
+#### [Terraform AWS Examples](https://github.com/rubchume/TerraformAWSexamples)
 
 > Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure
 
@@ -191,4 +202,4 @@ Contact me if you wish at rubchume@gmail.com.
 
 It might take a few days until I reply.
 
-## Have fun
+**Have fun**
