@@ -2,11 +2,11 @@
 
 I am Rubén.
 
-I am a data-oriented Python developer with a strong academic background in telecommunications engineering, statistics, data science, and data engineering.
+I am an Artificial Intelligence Engineer with a strong academic background in data science, telecommunications engineering, statistics, and data engineering.
 
 I actively contribute to the field through my personal blog, where I share insights and informal experiences. With my passion and expertise in Python, machine learning, and cloud technologies, I strive to make a meaningful impact in the industry.
 
-My daily tech stack: Python, Microsoft Azure ML, AWS Redshift, Terraform, PyTorch, Scikit-Learn, FastAPI...
+My daily tech stack: Python, Microsoft Azure ML, Terraform, PyTorch, Scikit-Learn, FastAPI, Pandas, Plotly.
 
 Here you can find some of the projects I like to work on in my spare time or that I have done as part of some certification. Feel free to get inspired by them, fork them and contact me if you have any doubts or want to know a little more about the context (most of them are not thoroughly docummented since I do them mostly for myself).
 
