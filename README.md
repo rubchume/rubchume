@@ -23,6 +23,11 @@ I have divided this into thes types of projects:
 
 ### Data science projects
 
+#### [Voice Cloning and Classification](https://github.com/rubchume/VoiceCloningFakeAudioDetection)
+- Used an open source voice cloning model for *one-shot* cloning of voices using just a sample of one recorded sentence.
+- Trained classification model for distinguising between cloned and real voices with a highly unbalanced dataset and achieving high accuracy.
+- Performed the massive training and classification on compute clusters with GPU by using Microsoft Azure ML jobs.
+
 #### [Flip page CNN detector (Microsoft Azure MLOps)](https://github.com/rubchume/FlipPageDetectorCNNAzure)
 - Designed and trained a CNN neural network for classifying book pages being flipped or not with more than 98% F1 test score
 - Trained it with GPU compute instance in Microsoft Azure, and PyTorch Lightning framework
