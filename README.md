@@ -70,14 +70,9 @@ Read more about it in this [Medium article](https://medium.com/analytics-vidhya/
 
 ![Picture Anonymiser](images/picture%20anonymizer.jpeg)
 
-This is a Django application where you can upload pictures of people and then it 
-uses Google Cloud Platform API for finding where the faces are.
-
-The application will blur those faces so those pictures become anonymous.
-
-The most interesting part of the code you can get from this is how to communicate with Google Cloud Platform from Python.
-
-It can serve as a starting point for other more complex applications.
+- Developed web application for uploading and blurring faces in images.
+- Combined technologies like Django, Google Cloud Vision, Google Cloud Storage and Heroku to implement and deploy the full stack application.
+- It can serve as a working starting point for more complex applications.
 
 #### [Medium web scraper](https://github.com/rubchume/MediumScraper)
 
