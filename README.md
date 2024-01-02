@@ -61,28 +61,10 @@ I have divided this into thes types of projects:
 
 ![FriendFacebookNetwork](images/friendsnetwork.png)
 
-This project is about **web scraping** your personal (my personal, but you should work on yours) Facebook profile using Selenium from Python.
+- Developed a desktop application for **web scraping** and performing **social network analysis** of your personal Facebook friend network revealing insights and interesting facts you might not know yet.
+- Combined different technologies like Selenium, NetworkX, Plotly, Electron and Django for creating the complete application.
 
-With this you can download the information about which of your friends are friends between them, and which of them don't know each other.
-
-Then you can find the different communities among your friends with **social network analysis** algorithms implemented in the Python library NetworkX.
-
-The interactive visualizations are created using **Plotly**.
-
-Finally, all of this is wrapped up in a simple (and somewhat ugly, sorry) Electron GUI that uses **Django** as a backend.
-
-In summary, a mix of libraries and technologies to create a simple application that, honestly, I think it is really cool.
-
-Among other things, I realized that almost all of my friends are connected.
-
-When there is a dense network of friends (dots of the same color) that is connected by just one connection to other community,
-in almost all cases the connection is a surprise you didn't know. 
-
-For example, I discovered that a cousin of mine (my family are the violet dots) knew one of my childhood friends (green dots), and that a person I knew while studying in another country (pink) knows one of my salsa lessons classmates (yellow).
-
-What do you think you will discover?
-
-*You can read more in this [article](https://rubchume.medium.com/organize-your-wedding-with-social-network-analysis-in-python-aeab9d8814b3)*
+Read more about it in this [Medium article](https://medium.com/analytics-vidhya/read-your-network-of-friends-in-facebook-by-scraping-with-python-a012adabb713).
 
 #### [Picture Anonymiser](https://github.com/rubchume/PictureAnonymizer)
 
