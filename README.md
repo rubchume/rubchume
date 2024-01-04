@@ -78,22 +78,8 @@ Read more about it in this [Medium article](https://medium.com/analytics-vidhya/
 
 ![Medium Scraper](images/MediumScraper.svg)
 
-This is actually a real project thanks to which I made a good amount of money.
-It is not the finished version I used (for confidentiality purposes) but one of the first versions. In any case, the principles are the same.
-
-It turns out a machine learning company was training some Natural Language Processing models on a great variety of texts.
-
-They needed to find blog articles about certain topics, and for that they hired freelancers. I was one of those freelancers.
-
-My job was to provide them with a way of downloading tens of thousands of blog articles in text format about some topics in the least amount of time possible (less than 10 minutes).
-
-I built a solution using web scraping in Python with **Selenium**, **BeautifulSoup**, **multithreading** and **queues** that would download those articles from the Medium.com archive.
-
-This first version is not the one I ended up using and it is not the one I would recommend using in a professional setting.
-I would actually include a mix of concurrency and multithreading instead of 100% multithreading,
-but in any case this can be very useful if you are looking for a fully functional project that uses these technologies.
-
-The web scraping part might need to be updated as the Medium interface can change over time.
+- Built a fast web scraper for massive download of tens of thousands of Medium articles in a few minutes, filtered by search term and additional critieria, so a machine learning company could train NLP models on them.
+- Leveraged Python modern packages and capabilities as **Selenium**, **BeautifulSoup**, **multithreading** and **queues**.
 
 #### [Whatsapp Analyser](https://github.com/rubchume/WhatsappAnalyzer)
 
