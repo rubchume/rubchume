@@ -83,52 +83,10 @@ Read more about it in this [Medium article](https://medium.com/analytics-vidhya/
 
 #### [Whatsapp Analyser](https://github.com/rubchume/WhatsappAnalyzer)
 
-Do you like Markov processes, probability estimation and eigenvector matrix decomposition?
-
-Well, you can skip to the next project if you don't... I'm joking, wait a little until I explain what this app can do.
-
-Have you ever realized that in a Whatsapp group chat, there is always someone (let's call her Alice) who almost always is the first one to talk after someone else (let's call him John) says something?
-
-That can mean many things and it's not my business to gossip about Alice and John.
-
-However this presents and interesting probability modelling problem. What I thought is that we can model a Whatsapp chat as a Markov process.
-
-What is a Markov process? Well it is just a mathematical abstraction to model a process where there are some states a variable can have
-(like the last message in a chat being written by Alice, John, or Charles, who by the way is kind of jealous),
-and in each iteration, there is a specific probability that the next message belongs to each one of them.
-Hence the probabilities of going to one state to another can be represented in a matrix:
-
-|         | Alice | John | Charles |
-|---------|-------|------|---------|
-| Alice   | X     | 0.5  | 0.5     |
-| John    | 0.9   | X    | 0.1     |
-| Charles | 0.5   | 0.5  | X       |
-
-
-This is just a made up example. The thing is, in real chats we can estimate this matrix using the Maximum Likelihood estimator
-(which fortunately can be calculated using some simple linear algebra with eigenvalue decomposition).
-
-With this matrix, we can then represent visually how *hot* or *cold* is a relationship, or if it is very asymmetric.
-
-It is important to highlight that the computations take in account how often a person talks in general.
-If   Charles just spends his days talking in the group, of course most of the messages of Alice or John will be followed by a message of Charles,
-but that does not mean that Charles has a preference for Alice or John.
-The computations take in account that bias and compensate for that.
-
-This is a real example of one of the Whatsapp groups in a group of friends I have:
-![Whatsapp Chat](images/whatsapchat.png)
-
-We can see that there are two persons (and I know for sure there is something between them) that have a very very warm relationship.
-The blue one is pretty warm with every one. The pink one has kind of a cold relationship to the purple one.
-But honestly, it seems the blue one is cold with everyone except with the orange one.
-And there are two other persons who never participate, but that's another story.
-
-In this project you can see how to use the **data analysis** Python libraries **Pandas**, **Numpy** and **Plotly**.
-You can also see how to set up a simple **Django** app.
-
-Do you want to have objective arguments to prove that Alice has some sort of crush on John with the help of Markov?
-
-Explore the code in this repository. But don't blame me for what could happen afterwards.
+- Designed and implemented a web app for analyzing how warm or cold relationships are between members a Whatsapp group chat by using Markov processes and linear algebra.
+- Results were shown in expressive and easy to interpret visualizations so surprising insights are clear right away.
+- Deployed on Heroku.
+- Used modern technological stack: Django, Plotly, Dash, Pandas, Numpy.
 
 ### Software Engineering projects
 
