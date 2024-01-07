@@ -92,36 +92,15 @@ Read more about it in this [Medium article](https://medium.com/analytics-vidhya/
 
 #### [Notion API Manager](https://github.com/rubchume/NotionApiManager)
 
-If you are an organization freak like me, you know what [Notion](https://www.notion.so/) is. This app has changed forever the way millions of users take notes.
-
-Even if there are strong competitors like Obsidian or LogSeq that out-compete Notion in the task of creating a *second brain*,
-Notion still has the edge as the most balanced note-taking app. It might not be the best in anything, but it is excellent in everything,
-and that balance is what makes it my preferred option when it comes taking notes, manage projects and organizing knowledge.
-
-One of the great things of Notion is that its API is simple and easy to use. However, for most common operations it could be even simpler.
-
-This project is a small Python wrapper around the existing and excellent Notion API so creating new pages and consuming existing information becomes a matter of writing a few lines.
-
-It is still very simple, so feel free to adapt it to your own needs.
-
-This package published in **PyPI** and documented with **Sphinx**, and the whole process testing and deploying the new versions of the package is done by running a **Gitlab CI Pipeline**.
+- Created a tool for seamlessly perform operations in Notion from Python in an object-oriented programming manner, making use of Notion's web API.
+- It allows creating new pages and consuming existing information with just a few lines and integrates it with Pandas.
+- Development flow integrated in a full CI/CD pipeline (Gitlab CI Pipeline): runs unittests, generates documentation with Sphinx and pushes it to ReadTheDocs and publishes the package to PyPI.
 
 #### [Terraform AWS Examples](https://github.com/rubchume/TerraformAWSexamples)
 
-> Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure
-
-**Infrastructure-as-code** (IaC) has changed the world of servers for the better by eliminating manual processes, so the speed of infrastructure management is faster and more consistent since it is written in code.
-
-Moreover, if you are a developer, it will allow you to focus on development more, while letting the software create and manage the infrastructure for you.
-
-I find AWS to be easy to use, and it is wonderfully integrated in Terraform.
-
-This repository is a collection of common IaC configurations for data analysis tasks that you can deploy on AWS right away.
-
-There are very useful examples of how to design complex infrastructures using modularity.
-They can serve as starting points that you can then customize to your own needs.
-
-*Be careful because AWS is not free*.
+- Collected common Terraform (Infrastructure-as-Code) configurations from different data analysis projects that can be deployed on AWS right away,
+- being an excellent example of how modularity is used to design complex infrastructure
+- and serving as starting points you can then customize to your own needs.
 
 ## Contact me
 Contact me if you wish at rubchume@gmail.com.
