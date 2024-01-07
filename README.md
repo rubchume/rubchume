@@ -16,7 +16,8 @@ Have fun.
 
 Let me give you a brief summary of what you can find here, for free 😉
 
-I have divided this into these types of projects:
+I have divided my portfolio into three types of projects: Data Science/Machine Learning, Data-oriented Software Engineering, and Software Engineering (in general).
+Here you have the list of all my projects:
 - [Data Science/Machine Learning](#data-science-projects)
   - [Voice Cloning and Classification](#voice-cloning-and-classification)
   - [Flip page CNN detector (Microsoft Azure MLOps)](#flip-page-cnn-detector-microsoft-azure-mlops)
