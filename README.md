@@ -4,7 +4,7 @@ I am Rubén.
 
 I am an Artificial Intelligence Engineer with a strong academic background in data science, telecommunications engineering, statistics, and data engineering.
 
-I actively contribute to the field through my personal blog, where I share insights and informal experiences. With my passion and expertise in Python, machine learning, and cloud technologies, I strive to make a meaningful impact in the industry.
+I actively contribute to the field through my personal [blog](https://rubchume.medium.com/), where I share insights and informal experiences. With my passion and expertise in Python, machine learning, and cloud technologies, I strive to make a meaningful impact in the industry.
 
 My daily tech stack: Python, Microsoft Azure ML, Terraform, PyTorch, Scikit-Learn, FastAPI, Pandas, Plotly.
 
@@ -16,10 +16,10 @@ Have fun.
 
 Let me give you a brief summary of what you can find here, for free 😉
 
-I have divided this into thes types of projects:
-- Data Science/Machine Learning
-- Data-oriented Software Engineering
-- Software Engineering
+I have divided this into these types of projects:
+- [Data Science/Machine Learning](#data-science-projects)
+- [Data-oriented Software Engineering](#data-oriented-software-engineering-projects)
+- [Software Engineering](#software-engineering-projects)
 
 ### Data science projects
 
