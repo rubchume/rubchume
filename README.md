@@ -19,6 +19,7 @@ Let me give you a brief summary of what you can find here, for free 😉
 I have divided my portfolio into three types of projects: Data Science/Machine Learning, Data-oriented Software Engineering, and Software Engineering (in general).
 Here you have the list of all my projects:
 - [Data Science/Machine Learning](#data-science-projects)
+  - [Reinforcement Learning Marketing User Flow optimization](#reinforcement-learning-marketing-user-flow-optimization)
   - [Voice Cloning and Classification](#voice-cloning-and-classification)
   - [Flip page CNN detector (Microsoft Azure MLOps)](#flip-page-cnn-detector-microsoft-azure-mlops)
   - [Bank Marketing Campaign XGBoost Modeling](#bank-marketing-campaign-xgboost-modeling)
@@ -34,6 +35,13 @@ Here you have the list of all my projects:
   - [Terraform AWS Examples](#terraform-aws-examples)
 
 ### Data science projects
+
+#### [Reinforcement Learning Marketing User Flow optimization](https://github.com/rubchume/ReinforcementLearningUsers)
+![UserFlow](https://github.com/rubchume/rubchume/assets/83817841/eb6bfb69-a8da-4f04-92eb-58646eb73748)
+
+- Found best strategy for maximizing user subscription success rate in a marketing user funnel of a digital company by training a reinforcement learning algorithm on real user data.
+- Evaluated the performance of the agent numerically and with expressive visualizations.
+- Defined a process for handling scarcity of samples combined with many variables by leveraging Naive-Bayes proability estimation.
 
 #### [Voice Cloning and Classification](https://github.com/rubchume/VoiceCloningFakeAudioDetection)
 - Used an open source voice cloning model for *one-shot* cloning of voices using just a sample of one recorded sentence.
