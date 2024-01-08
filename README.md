@@ -40,7 +40,7 @@ Here you have the list of all my projects:
 ![UserFlow](https://github.com/rubchume/rubchume/assets/83817841/eb6bfb69-a8da-4f04-92eb-58646eb73748)
 
 - Found best strategy for maximizing user subscription success rate in a marketing user funnel of a digital company by training a reinforcement learning algorithm on real user data.
-- Evaluated the performance of the agent numerically and with expressive visualizations.
+- Evaluated the performance of the agent numerically and with expressive visualizations for AI explainability.
 - Defined a process for handling scarcity of samples combined with many variables by leveraging Naive-Bayes proability estimation.
 
 #### [Voice Cloning and Classification](https://github.com/rubchume/VoiceCloningFakeAudioDetection)
