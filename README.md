@@ -61,6 +61,7 @@ Here you have the list of all my projects:
 - Analyzed data (demographic, financial and data related to marketing) from a marketing campaign where a European bank institution was selling a term deposit, performing Exploratory Data Analysis, binary classification modeling and evaluation of metrics.
 - Used XGBoost to predict the success of the campaign given the customer’s available data.
 - Performed feature engineering, fine tuning of model hyperparameters and adjusted the decision threshold, achieving a recall of more than 70% and a precision of 50% for a very imbalanced dataset (only 7% of customers bought the term deposit).
+- Explained model decisions and feature importance with SHAP values.
 
 <div style="display: flex; justify-content: space-between;">
 <img src="images/BankingMarketingROC.png" width="400px">
